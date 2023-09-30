@@ -1,0 +1,354 @@
+.nav&header{
+    background-image:url("/assets/Mask\ Group\ \(1\).png");
+   
+}
+.header{
+    position: sticky;
+    display : flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.home{
+    
+    display : flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.home>p{
+    
+    padding : 20px ;
+     
+}
+#a1{
+    color : black ; 
+    text-decoration: none;
+    font-size: large;
+}
+#logo{
+    width  : 180px ;
+    height: 40px;
+}
+#text1{
+    width : 300px ;
+    height : 35px ;
+    background-color: white;
+    border : 1px solid gray ;
+    border-radius: 10px ;
+    padding-left: 20px;
+    color : grey
+    font-size: large;
+}
+#btn1{
+    width : 100px ;
+    height: 40px;
+    color : white ;
+    background-color: red;
+    border : 1px solid red ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
+.header1{
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head_left{
+    width : 800px ;
+}
+#more{
+width : 200px ;
+height : 40px ;
+line-height: 2 ;;
+text-align: center;
+font-size: large;
+color : red ;
+background-color: #ff69b446;
+border-radius: 20px;
+}
+#gety{
+    font-size: 70px;
+    font-weight: 650;
+    margin-bottom: 0px ;
+}
+#special{
+    font-size: 70px;
+    font-weight: 650;
+    color : red ;
+    margin-top: 0px;
+}
+#extra{
+font-size: xx-large;
+color: gray;
+}
+#btn2{
+    width : 200px ;
+    height: 60px;
+    color : white ;
+    background-color: red;
+    border : 1px solid red ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+.textt{
+    width : 350px ;
+}
+.textt>h1{
+    font-size: 1.5cm;
+    font-weight: 600;
+}
+.textt>p{
+   font-size: large;
+   color : gray ;
+}
+.about_us{
+    margin: 200px ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px ;
+}
+#choose{
+    font-size: 1cm;
+    font-weight: 600;
+}
+#choose1{
+    width : 280px ;
+    border-radius: 10px ;
+    box-shadow: 2px 2px 2px gray;
+}
+#choose1:hover{
+    box-shadow: 3px 3px 3px yellow;
+}
+.Recipes{
+    margin-top: 50px ;
+    margin-left: 900px;
+    text-align: center;
+    width : 900px ;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+#option{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+}
+#option:hover{
+    color: red;
+    text-decoration: underline;
+}
+#btn3{
+    color : red ;
+    border  : 1px solid red ;
+    background-color: white;
+    border-radius : 10px ;
+    padding: 10px ;
+}
+.item1{
+    margin-top : 40px ;
+    padding : 50px ;
+    width : 350px ;
+    text-align : center ;
+    border : 1px solid white ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px gray;
+}
+.menubar{
+    margin-left : 500px ;
+    margin-right: 500px;
+    display : flex ;
+    justify-content: space-evenly;
+}
+.item1:hover{
+    box-shadow: 3px 3px 3px 3px yellow;
+}
+#customers{
+    
+  margin : 20px ;
+  
+    background-color: #fafaf3;
+    border-radius: 20px;
+    width : 500px ;
+    display: grid;
+    grid-template-areas: 
+        "a b"
+        "a c"
+}
+#rose{
+    grid-area: a;
+}
+#p1{
+    grid-area: b;
+}
+#p2{
+    grid-area: c;
+}
+.Reviews{
+    padding : 100px ;
+    margin-top: 400px;
+    background-color: #fafaf3;
+}
+#customers:hover{
+    background-color: white;
+}
+.cust-name{
+    width : 600px ;
+    display :flex;
+    justify-content : space-between ;
+    align-items: center;
+}
+.review1{
+    margin-top: 400px;
+    width : 700px ;
+}
+.review-section{
+    background-color: #fafaf3;
+    display: flex;
+    justify-content: space-around;
+
+}
+.call-to-action{
+   
+    text-align: center;
+    background-image: url("/assets/Call to Action.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+#call{
+    margin-top: 400px ;;
+    text-align: left;
+}
+.footer{
+    display : flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left-footer{
+    width : 400px ;
+    text-align: left;
+}
+.right-footer{
+    width : 1100px ;
+}
+#tab-heading{
+    height : 150px ;
+}
+#tab-data{
+    height : 60px ;
+}
+
+@media screen and (max-width : 480px) {
+    .header{
+        display : flex ;
+        flex-direction : column !important;
+        align-items : center ;
+    }
+    .about_us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #scooter1{
+        display: none;
+    }
+    .menubar{
+        display : flex ;
+        flex-direction : column !important;
+        align-items : center ;
+    }
+    .review-section{
+        display : flex ;
+        flex-direction : column !important;
+        align-items : center ;
+    }
+    .review{
+        display : flex ;
+        flex-direction : column !important;
+        align-items : center ;
+    }
+    .call-to-action{
+        display : flex ;
+        flex-direction : column !important;
+        align-items : center ;
+    }
+    .Recipes{
+        display : flex ;
+        flex-direction : column !important;
+        align-items : center ;
+    }
+    .left-footer{
+        width : 100px ;
+        text-align: left;
+    }
+    .right-footer{
+         display: none;
+    }
+    .review-section{
+        width : 100vw ;
+    }
+    .about_us{
+        margin : 0px ;
+    }
+
+    .head_left{
+        width : 400px ;
+    }
+    .Recipes{
+        margin-top: 50px ;
+        margin-left: 50px;
+        text-align: center;
+        width : 3500px ;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .menubar{
+        margin-left : 50px ;
+        margin-right: 50px;
+        display : flex ;
+        justify-content: space-evenly;
+    }
+    #customers{
+        
+      margin : 20px ;
+      
+        background-color: #fafaf3;
+        border-radius: 20px;
+        width : 400px ;
+        display: grid;
+        grid-template-areas: 
+            "a b"
+            "a c"
+    }
+    .Reviews{
+        padding : 50px ;
+        margin-top: 50px;
+        background-color: #fafaf3;
+    }
+    .cust-name{
+        width : 400px ;
+        display :flex;
+        justify-content : space-between ;
+        align-items: center;
+    }
+    .review1{
+        margin-top: 50px;
+        width : 400px ;
+    }
+    #call{
+        margin-top: 50px ;;
+        text-align: left;
+    }
+    left-footer{
+        width : 300px ;
+        text-align: left;
+    }
+    .right-footer{
+        width : 400px ;
+    }
+}
